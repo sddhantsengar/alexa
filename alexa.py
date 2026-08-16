@@ -148,7 +148,7 @@ def main() -> None:
             say_goodbye_and_exit()
  
         elif 'who is your founder' in query:
-            message = f"{FOUNDER_NAME} is my founder."
+            message = f"{SiddhantSengar} is my founder."
             speak(message)
             print(message)
  
@@ -170,8 +170,7 @@ def main() -> None:
         elif 'wifi passwords' in query or 'wi-fi passwords' in query:
             show_saved_wifi_passwords()
  
-        elif 'gu kha lijiye' in query:
-            speak("tu kha le")
+        
  
         else:
             speak("Sorry, I did not understand that command.")
